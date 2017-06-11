@@ -1,5 +1,5 @@
 
-import * as abc from "../custom_types/abc";
+import * as abc from "abc";
 
 export class App {
     static sayGoodbye() {

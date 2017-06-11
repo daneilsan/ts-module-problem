@@ -7,7 +7,7 @@ module.exports = {
         filename: "./dist/webpack-bundle.js"
     },
     externals: {
-        "../custom_types/abc": "abc"
+        "abc": "abc"
     },
     resolve: {
         extensions: [".ts"]
