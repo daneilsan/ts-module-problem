@@ -1,7 +1,7 @@
-/// <reference types="abc" />
 
+import * as abc from "../custom_types/abc";
 
-class App {
+export class App {
     static sayGoodbye() {
         console.log("goodbye from App.ts");
     }

@@ -63,18 +63,23 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 0);
+/******/ 	return __webpack_require__(__webpack_require__.s = 1);
 /******/ })
 /************************************************************************/
 /******/ ([
 /* 0 */
+/***/ (function(module, exports) {
+
+module.exports = abc;
+
+/***/ }),
+/* 1 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-/// <reference types="abc" />
 Object.defineProperty(exports, "__esModule", { value: true });
-var abc = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"abc\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var abc = __webpack_require__(0);
 var App = (function () {
     function App() {
     }

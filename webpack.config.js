@@ -6,6 +6,9 @@ module.exports = {
     output: {
         filename: "./dist/webpack-bundle.js"
     },
+    externals: {
+        "../custom_types/abc": "abc"
+    },
     resolve: {
         extensions: [".ts"]
         // alias: {
