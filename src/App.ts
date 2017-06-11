@@ -1,9 +1,4 @@
-/*/// <reference path="abc.d.ts"/>
-import * as abc from "abc"; */
-
-// import {abc} from "./abc";
-
-import * as abc from "./abc";
+/// <reference types="abc" />
 
 
 class App {
@@ -12,5 +7,5 @@ class App {
     }
 }
 
-abc.abc.sayHello();
+abc.sayHello();
 App.sayGoodbye();

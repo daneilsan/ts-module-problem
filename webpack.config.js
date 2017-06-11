@@ -8,6 +8,9 @@ module.exports = {
     },
     resolve: {
         extensions: [".ts"]
+        // alias: {
+        //     "mierda": path.resolve(__dirname, "src/abc.d.ts")
+        // }
     },
     module: {
         rules: [

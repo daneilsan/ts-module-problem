@@ -71,12 +71,10 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/*/// <reference path="abc.d.ts"/>
-import * as abc from "abc"; */
 
+/// <reference types="abc" />
 Object.defineProperty(exports, "__esModule", { value: true });
-// import {abc} from "./abc";
-var abc = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./abc\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var abc = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"abc\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
 var App = (function () {
     function App() {
     }
@@ -85,7 +83,8 @@ var App = (function () {
     };
     return App;
 }());
-abc.abc.sayHello();
+exports.App = App;
+abc.sayHello();
 App.sayGoodbye();
 
 
